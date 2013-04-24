@@ -26,4 +26,8 @@ describe Solution do
   it "should accept solution with name" do
     Solution.create(name: "Solution Name", description: "Solution description", problem_id: problem.id).should have(0).errors
   end
+
+  it "shouldn't accept solution with problem that not exist" do
+    Solution.create(name: "Solution Name", description: "Solution description", problem_id: 9999).should have(1).errors_on(:problem_id)
+  end
 end
