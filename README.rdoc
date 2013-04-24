@@ -1,8 +1,8 @@
 # Objetivos
 
 1. Corrigir os testes que estão quebrados;
-1. Deixe o campo de "name" do "Problem" e "Solution" obrigatórios;
-1. Adicione campo de "description" em Problem e Solution (também obrigatório)
+-> 1. Deixe o campo de "name" do "Problem" e "Solution" obrigatórios;
+-> 1. Adicione campo de "description" em Problem e Solution (também obrigatório)
 1. Adicione uma relação entre Problem e Solution (um problema tem várias soluções);
 1. Adicione um cadastro de "Solution" ter um problema é obrigatório
 1. Faça a raiz da aplicação abrir a lista de problemas;

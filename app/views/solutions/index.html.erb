@@ -3,6 +3,7 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>Description</th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,6 +12,7 @@
 <% @solutions.each do |solution| %>
   <tr>
     <td><%= solution.name %></td>
+    <td><%= solution.description %></td>
     <td><%= link_to 'Show', solution %></td>
     <td><%= link_to 'Edit', edit_solution_path(solution) %></td>
     <td><%= link_to 'Destroy', solution, method: :delete, data: { confirm: 'Are you sure?' } %></td>

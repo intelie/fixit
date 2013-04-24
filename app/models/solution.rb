@@ -1,5 +1,5 @@
 class Solution < ActiveRecord::Base
-  attr_accessible :name
+  attr_accessible :name, :description
 
-  validates_presence_of :name
+  validates_presence_of :name, :description
 end
