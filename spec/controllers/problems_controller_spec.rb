@@ -6,7 +6,7 @@ describe ProblemsController do
   # Problem. As you add validations to Problem, be sure to
   # update the return value of this method accordingly.
   def valid_attributes
-    {name: "problem name"}
+    {name: "problem name", description: "problem description"}
   end
 
   # This should return the minimal set of values that should be in the session
