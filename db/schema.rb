@@ -11,18 +11,29 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130423220514) do
+ActiveRecord::Schema.define(:version => 20130424135744) do
 
   create_table "problems", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.text     "description"
+    t.integer  "solutions_count"
   end
+
+  add_index "problems", ["description"], :name => "index_problems_on_description"
+  add_index "problems", ["name"], :name => "index_problems_on_name"
 
   create_table "solutions", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+    t.text     "description"
+    t.integer  "problem_id"
   end
+
+  add_index "solutions", ["description"], :name => "index_solutions_on_description"
+  add_index "solutions", ["name"], :name => "index_solutions_on_name"
+  add_index "solutions", ["problem_id"], :name => "index_solutions_on_problem_id"
 
 end

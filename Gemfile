@@ -17,7 +17,7 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
-
+  gem 'zurb-foundation', '~> 4.0.0'
   gem 'uglifier', '>= 1.0.3'
 end
 
@@ -29,8 +29,8 @@ gem 'jquery-rails'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+# Use puma as the app server
+gem 'puma'
 
 # Deploy with Capistrano
 # gem 'capistrano'

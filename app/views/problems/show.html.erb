@@ -4,7 +4,10 @@
   <b>Name:</b>
   <%= @problem.name %>
 </p>
-
+<p>
+  <b>Description:</b>
+  <%= @problem.description %>
+</p>
 
 <%= link_to 'Edit', edit_problem_path(@problem) %> |
 <%= link_to 'Back', problems_path %>
