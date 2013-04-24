@@ -5,7 +5,7 @@
 -> 1. Adicione campo de "description" em Problem e Solution (também obrigatório)
 -> 1. Adicione uma relação entre Problem e Solution (um problema tem várias soluções);
 -> 1. Adicione um cadastro de "Solution" ter um problema é obrigatório
-1. Faça a raiz da aplicação abrir a lista de problemas;
+-> 1. Faça a raiz da aplicação abrir a lista de problemas;
 1. Aumente a cobertura de testes
 1. Sugira melhorias
 
