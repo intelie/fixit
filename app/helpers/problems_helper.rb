@@ -1,5 +1,5 @@
 module ProblemsHelper
-  def display_numnber_of_solutions(problem)
+  def display_number_of_solutions(problem)
     n = problem.solutions.size
     if n == 0
       "No solutions yet."
