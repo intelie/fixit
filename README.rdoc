@@ -1,12 +1,17 @@
 # Objetivos
 
-1. Corrigir os testes que estão quebrados;
+-> 1. Corrigir os testes que estão quebrados;
 -> 1. Deixe o campo de "name" do "Problem" e "Solution" obrigatórios;
 -> 1. Adicione campo de "description" em Problem e Solution (também obrigatório)
 -> 1. Adicione uma relação entre Problem e Solution (um problema tem várias soluções);
 -> 1. Adicione um cadastro de "Solution" ter um problema é obrigatório
 -> 1. Faça a raiz da aplicação abrir a lista de problemas;
-1. Aumente a cobertura de testes
+-> 1. Aumente a cobertura de testes
+
+Testes cobrem todos os requisitos (obrigatoriedade de campos)
+Copiado controller spec de problems para solution
+Adicionado Request da aplicação para validar que a root realmente renderiza problems#index
+
 1. Sugira melhorias
 
 # Regras
