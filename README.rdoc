@@ -1,22 +1,27 @@
 # Objetivos
 
--> 1. Corrigir os testes que estão quebrados;
--> 1. Deixe o campo de "name" do "Problem" e "Solution" obrigatórios;
--> 1. Adicione campo de "description" em Problem e Solution (também obrigatório)
--> 1. Adicione uma relação entre Problem e Solution (um problema tem várias soluções);
--> 1. Adicione um cadastro de "Solution" ter um problema é obrigatório
--> 1. Faça a raiz da aplicação abrir a lista de problemas;
--> 1. Aumente a cobertura de testes
+1. Corrigir os testes que estão quebrados;
+1. Deixe o campo de "name" do "Problem" e "Solution" obrigatórios;
+1. Adicione campo de "description" em Problem e Solution (também obrigatório)
+1. Adicione uma relação entre Problem e Solution (um problema tem várias soluções);
+1. Adicione um cadastro de "Solution" ter um problema é obrigatório
+1. Faça a raiz da aplicação abrir a lista de problemas;
+1. Aumente a cobertura de testes
 
 Testes cobrem todos os requisitos (obrigatoriedade de campos)
+
 Copiado controller spec de problems para solution
+
 Adicionado Request da aplicação para validar que a root realmente renderiza problems#index
 
--> 1. Sugira melhorias
+1. Sugira melhorias
 
 No application layout, colocar a javascript_include_tag depois do body, para que a página possa ser caregada e estilizada, e depois carregar os javascripts (causa menos interrupções do DOM Parser)
+
 Criar testes de negócio e/ou testes de tela com o Watir
+
 Utilizar Twitter Bootstrap caso não tenha um designer para criar um tema bacana
+
 Utilizar uma outra linguagem Markup para as páginas, que seja mais simples e mais clean (como HAML e Slim)
 
 # Regras
