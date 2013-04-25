@@ -1,7 +1,6 @@
 Fixit::Application.routes.draw do
+  root to: 'problems#index'
   resources :solutions
-
-
   resources :problems
 
 
